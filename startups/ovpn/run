@@ -31,5 +31,5 @@ sed -i "/auth-user-pass/c $authpass" $OVPN_FILEPATH
 
 ### OpenVPN
 
-openvpn --config $OVPN_FILEPATH
+openvpn --config $OVPN_FILEPATH --comp-lzo no
 
